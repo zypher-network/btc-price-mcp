@@ -1,0 +1,12 @@
+[project]
+name = "btc-price-mcp"
+version = "0.1.0"
+description = "the server to get btc price, data powered by APRO"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "httpx[socks]>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "requests>=2.32.3",
+]
